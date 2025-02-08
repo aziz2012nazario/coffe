@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  padding: 20px 0;
+  background-color: #f3d7b7;
+}
+
+.rowHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+}
+
+.firstSection {
+  padding-top: 100px;
+  padding-bottom: 257px;
+  background-color: #f3d7b7;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.firstRow .left {
+  width: 464px;
+}
+
+.firstRow .left h1 {
+  font-size: 64px;
+  color: #000000;
+}
+
+.firstRow .left p {
+  margin: 50px 0;
+}
+
+.firstRow .left button {
+  background-color: #0a775f;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+
+.firstSection .right {
+  position: absolute;
+  right: -200px;
+}
+
+.coffe {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+
+
+.circle img {
+  animation:rotate 01s linear infinite;
+}
+
+
+
+
+
+.secondsection{
+  background-color: #e0d0be;
+}
+
+
+.secondrow{
+  padding-top: 160px;
+}
+
+
+.collection{
+  font-size: 64px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.secondrow .card{
+  display: flex;
+  align-items: center;
+  gap: 117px;
+}
+
+
+.secondrow .card p:nth-child(1) {
+  font-size: 48px;
+}
+
+
+
+.secondrow .card p:nth-child(2) {
+  font-size: 22px;
+  width: 454px;
+}
+
+
+
+.teskari{
+  flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  padding: 60px 0;
+  background-color: #f3d7b7;
+}
+.rowfot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fotmenu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.fotmenu a {
+  font-size: 24px;
+}
+
+.rowfot .right i {
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rowthird{
+  display: flex;
+  align-items: center;
+  gap: 318px;
+}
+
+
+
+.rowthird .right h2{
+ font-size: 48px;
+ color: #000000;
+}
+
+.rowthird .right p{
+  width: 650px;
+  font-size: 18px;
+  color: #333333;
+}
+
+
+
+.divboss{
+  display: flex;
+  gap: 1000px;
+}
+
+
+
+
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
